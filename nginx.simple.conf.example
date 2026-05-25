@@ -1,0 +1,14 @@
+# 最简 Nginx：无需 location /assets/ 等别名
+# 前提：使用 prepare_nginx.py 生成的 nginx_deploy/ 整包上传（根目录下已有 assets、images 与 activity 同级）
+
+server {
+    listen 80;
+    server_name localhost;
+
+    root F:/2026Code/san_pi_03/nginx_deploy;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ $uri/index.html =404;
+    }
+}

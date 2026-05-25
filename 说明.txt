@@ -1,0 +1,122 @@
+原地址：
+
+https://388jlvip.com/activity/Custom/218
+
+https://388jlvip.com/activity/Custom/211
+
+
+
+================================================================================
+
+推荐：全部收进一个子目录 aba/（不影响网站根目录其它文件）
+
+================================================================================
+
+
+
+生成命令（子目录名默认 aba，可改成别的）：
+
+
+
+  python prepare_subfolder.py
+
+  python prepare_subfolder.py mydir
+
+
+
+生成后目录结构：
+
+
+
+  你的网站根目录/
+
+    其它文件...          ← 不受影响
+
+    aba/                 ← 只上传/只放这一文件夹
+
+      activity/Custom/218/index.html
+
+      activity/Custom/211/index.html
+
+      static/
+
+      assets/  images/  svg/  ...（与线上一致的路径别名）
+
+      nginx-location.conf
+
+
+
+访问地址：
+
+
+
+  http://你的域名/aba/activity/Custom/218/
+
+  http://你的域名/aba/activity/Custom/211/
+
+
+
+本地预览：
+
+
+
+  在项目根 san_pi_03 执行 python -m http.server 8080
+
+  或双击 打开活动页218.bat / 打开活动页211.bat
+
+
+
+Nginx / 宝塔（baby91.top 示例）：
+
+
+
+  1. 上传整个 aba/ 到 /www/wwwroot/baby91.top/aba/
+
+  2. alias 必须是 Linux 路径，不能用 F:/2026Code/...
+
+  3. 使用 location ^~ /aba/ { ... }，不要用 try_files + alias（易 404）
+
+  4. 配置写在 include rewrite 之前。详见 aba/nginx-location.conf
+
+
+
+================================================================================
+
+开发目录说明（san_pi_03 根下，非部署用）
+
+================================================================================
+
+
+
+  activity/Custom/...   开发用页面（URL 无前缀 /aba/）
+
+  static/               共享静态资源
+
+  mirror_pages.py       重新从线上拉取
+
+  fix_paths.py          修正页面路径
+
+  prepare_subfolder.py  生成 aba/ 部署包（推荐上传这个）
+
+
+
+旧目录 activity_Custom_218/ 可忽略。
+
+
+
+================================================================================
+
+其它
+
+================================================================================
+
+
+
+不能直接双击 html（需 HTTP）。
+
+若仍跳首页可试：/aba/activity/custom/218/（小写 custom）。
+
+重新拉取后请再执行：python prepare_subfolder.py
+
+
+https://baby91.top/aba/activity/Custom/211

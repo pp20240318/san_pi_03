@@ -1,0 +1,17 @@
+cg.png
+size:1738,750
+filter:Linear,Linear
+pma:true
+g1
+bounds:750,172,576,540
+offsets:1,1,578,542
+rotate:90
+g2
+bounds:1292,304,444,444
+offsets:1,1,446,446
+g3
+bounds:2,2,746,746
+offsets:1,1,748,748
+gift
+bounds:1292,28,397,274
+offsets:1,1,399,276

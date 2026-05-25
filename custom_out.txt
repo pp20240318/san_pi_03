@@ -1,0 +1,10 @@
+﻿Ht={RedPacket:"RedPacket",AssistanceCash:"AssistanceCash",AssistanceCashTwo:"AssistanceCashTwo",luckyBet:"luckyBet",SignIn:"SignIn",SignInVolume:"SignInVolume",memberReward:"memberReward",mysteryReward:"mysteryReward",CommissionReward:"CommissionReward",MemberRewardMultiDay:"MemberRewardMultiDay",Assistance:"Assistance",CPFActivity:"CPFActivity",WalletUserActivity:"WalletUserActivity",RechargePromotion:"RechargePromotion",NewUserExclusive:"NewUserExclusive",ReferralRewardsNew:"ReferralRewardsNew
+e:["AUTO"],auditLimitGame:Jn},Custom:{activityTypeName:"自定义",config:vx,applyInfo:Vx,showData:sP,
+ationService] Failed to parse Custom activity condition:",P);const D=wd(S);return await Me.push(
+st s={InternalLink:"activity",Custom:"url",None:"none"}[t.type]||"none",o=String(t.value||"");re
+st s={InternalLink:"activity",Custom:"url",None:"none"}[t.announcementLinkType]||"none",o=t.anno
+,sortAll:i,activityList:d,goToCustomer:u,gameCardBgStyle:m,menuIonDidClose:g,menuIonDidOpen:f,me
+tivity.redEnvelope"),[it.enum.Custom]:()=>cn("activity.Custom"),[it.enum.MemberReward]:()=>cn("a
+,sortAll:i,activityList:d,goToCustomer:u,gameCardBgStyle:m,menuIonDidClose:g,menuIonDidOpen:f,me
+d($=>$.id==w)||{};return T==="Custom"?I:T?a("activity1.".concat(T)):""}if(b=="CODE"){const T=w&&
+ivityList:u,btnDisabled:m,goToCustomer:g,menuHandle:f,menuActivityHandle:v,languageHandle:y,menu

@@ -1,0 +1,61 @@
+﻿=== Custom #1 @ 44680 ===
+iftMaxAmount:0,popupTime:"HOME",popupInterval:0,installType:"DESK",installUrl:""})}),RA=["Default","Custom"],B1={Layout1:["Blue","Green","AmberPurple","Blue_V01","BlueV01","BlueV02","GreenV01","GreenV02","PineGreenV01","PineGreenV02","AmberPurpleV01","AuroraYellow"],Layout2:["DarkGreen","GoldenYellow","BluePurple","PhantomBlue","NeoBlue","MystLightBlue","MidnightPurple","GoldshineGreen","StellarDusk","ProsperityRed","RoseBlush","SupremeGreen","De
+
+=== Custom #2 @ 54595 ===
+tMap(t=>Kp[t].map(a=>"".concat(t,":").concat(a)));se(["all",...OC]);const Q0={Default:[],HotGame:[],Custom:[]},NC=Os(Q0);ve({hasSentAd:gt().optional().default(!1).describe("广告是否上报"),orderNo:be().optional().nullable().default(null).describe("订单号")});const V1={autoPaymentConditionNotMet:["autoPaymentClosed","amountOutOfRange","paymentAbnormal","paymentFailed","manualWithdrawal"],exemptionConditionNotMet:["firstWithdrawalInvalidBet","firstWithdrawal
+
+=== Custom #3 @ 56350 ===
+latformCard:ve({styleLayout1:Xe(qp).describe("数量固定2张"),styleLayout2:Xe(qp).describe("数量不固定，最多5张")}),CustomCard:ve({styleLayout1:Xe(op).describe("数量固定5张"),styleLayout2:Xe(op).describe("数量固定5张"),styleLayout3:Xe(op).describe("数量固定4张")})},nw=Object.keys(cu),_d=se(nw),HC=Object.fromEntries(Object.entries(cu).map(([t,a])=>[t,Object.keys(a.shape)]));nw.flatMap(t=>HC[t].map(a=>"".concat(t,":").concat(a)));ko("type",[ve({type:Nt(_d.enum.HotPlatformCard),t
+
+=== Ht. #1 @ 519311 ===
+,f;let t=(u=qt())==null?void 0:u.defStyle;const{skin:a,activityConfig:s}=st(),o=(m=s==null?void 0:s[Ht.RedPacket])==null?void 0:m.template,i={default:()=>F(()=>Promise.resolve().then(()=>zFe),void 0),first:()=>F(()=>Promise.resolve().then(()=>Wh),void 0),second:()=>F(()=>Promise.resolve().then(()=>Wh),void 0),style_1:()=>F(()=>Promise.resolve().then(()=>JGe),void 0),style_2:()=>F(()=>Promise.resolve().then(()=>TYe),void 0),style_18:()=>F(()=>Prom
+
+=== Ht. #2 @ 532990 ===
+le:Re,awardList:ne}}const IJ=()=>{var d,u;const{skin:t,activityConfig:a}=st(),s=(d=a==null?void 0:a[Ht.AssistanceCash])==null?void 0:d.template,o={default:()=>F(()=>Promise.resolve().then(()=>iKe),void 0),first:()=>F(()=>Promise.resolve().then(()=>cqe),void 0),second:()=>F(()=>Promise.resolve().then(()=>mJe),void 0),style_1:()=>F(()=>Promise.resolve().then(()=>UXe),void 0),style_18:()=>F(()=>Promise.resolve().then(()=>fQe),void 0)},i=(u=o[s])!=nu
+
+=== Ht. #3 @ 599854 ===
+onst cee=()=>{var u,m,g;const{defStyle:t}=qt(),{skin:a,activityConfig:s}=st(),o=(u=s==null?void 0:s[Ht.SignInVolume])==null?void 0:u.template,i={style_0:()=>F(()=>Promise.resolve().then(()=>Fnt),void 0),style_18:()=>F(()=>Promise.resolve().then(()=>yat),void 0)},d=(g=(m=i[o])!=null?m:i[t])!=null?g:i[a];return Lt(mt(d))},dee=H({__name:"index",setup(t){const a=cee();return(s,o)=>(c(),A(e(Le),null,{default:p(()=>[l(e(ye),null,{default:p(()=>[(c(),A(
+
+NOT FOUND: catchAll
+=== pathMatch #1 @ 1100055 ===
+:"/",redirect:"/launch"},{path:"/launch",component:Mie},{path:"/restricted",component:Uie},{path:"/:pathMatch(.*)*",redirect:"/launch"},{path:"/transition",component:Cd},{path:"/test/safehtml",component:()=>F(()=>Promise.resolve().then(()=>iJt),void 0)},{path:"/test/trpc-cache",component:()=>F(()=>Promise.resolve().then(()=>qJt),void 0)},{path:"/download",component:Vie},{path:"/login",component:Cd},{path:"/register",component:Cd},{path:"/Redeem",
+
+=== pathMatch #2 @ 2789260 ===
+d==="/"){a.replace({path:"/main",query:u});return}if(!a.getRoutes().map(v=>v.path).filter(v=>v!=="/:pathMatch(.*)*").some(v=>{if(v.includes(":")){let y=v.split("/:"),h=y.length-1,b=m.split("/");return b.splice(-h),b.join("/").toLowerCase()===y[0].toLowerCase()}else return v.toLowerCase()===m.toLowerCase()})){a.replace({path:"/main",query:u});return}if(d&&d.includes(window.location.host)){let v=d.split(window.location.host)[1];if(v.startsWith("/#"
+
+=== redirect: #1 @ 41362 ===
+{state:be(),tenantId:Zm.number().describe("商户id"),channelId:Zm.number().optional().describe("渠道id"),redirect:be().url().describe("重定向地址"),callback:be().url().optional().describe("callback地址"),action:se(["login","bind"]).default("login").describe("auth类型"),userId:Zm.number().optional().describe("用户id")});const B0=["ANDROID","IOS","WEB"];se(["all",...B0]);const dA=["ALL",...B0];se([...dA]);const uA=["Account","Phone","Google"],ap=se(uA),E1=se(["Nul
+
+=== redirect: #2 @ 1099960 ===
+esolve().then(()=>Pqt),void 0),jie=()=>F(()=>Promise.resolve().then(()=>Bqt),void 0),zie=[{path:"/",redirect:"/launch"},{path:"/launch",component:Mie},{path:"/restricted",component:Uie},{path:"/:pathMatch(.*)*",redirect:"/launch"},{path:"/transition",component:Cd},{path:"/test/safehtml",component:()=>F(()=>Promise.resolve().then(()=>iJt),void 0)},{path:"/test/trpc-cache",component:()=>F(()=>Promise.resolve().then(()=>qJt),void 0)},{path:"/downloa
+
+=== redirect: #3 @ 1100071 ===
+launch"},{path:"/launch",component:Mie},{path:"/restricted",component:Uie},{path:"/:pathMatch(.*)*",redirect:"/launch"},{path:"/transition",component:Cd},{path:"/test/safehtml",component:()=>F(()=>Promise.resolve().then(()=>iJt),void 0)},{path:"/test/trpc-cache",component:()=>F(()=>Promise.resolve().then(()=>qJt),void 0)},{path:"/download",component:Vie},{path:"/login",component:Cd},{path:"/register",component:Cd},{path:"/Redeem",component:Cd,met
+
+=== /main/inicio #1 @ 122364 ===
+,"class"])],2)}}}),Ot=G(K8,[["__scopeId","data-v-5a557652"]]),q8=(t,a)=>{const s=Me.currentRoute,o="/main/inicio",i={...s.value.query,token:t,acc:a.acc,pass:a.pass};Me.replace({path:o,query:i})},J8=["mlm-level0","mlm-level1","mlm-level2","mlm-level3","mlm-level4","mlm-level5","mlm-level6"],X8=["mlmAgent.agentLevelNmae0","mlmAgent.agentLevelNmae1","mlmAgent.agentLevelNmae2","mlmAgent.agentLevelNmae3","mlmAgent.agentLevelNmae4","mlmAgent.agentLevel
+
+=== /main/inicio #2 @ 128940 ===
+),this.adReported},async setAdReported(t){this.adReported=t,await sg.set("adReported",t)}}}),Kw=(t="/main/inicio",a)=>{const s=ba();Me.replace({path:t,query:a}).then(()=>{s.setViewReload(!1)})},bR=[{fonts:"",imgs:[{src:"/svg/activity/wheel_prop_H_count.svg",width:"30%",top:"15%"},{src:"/svg/activity/wheel_prop_H.svg",width:"30%",top:"60%"}],background:"#FCCC02"},{fonts:[{text:"10",top:"10%",fontColor:"#D434CD",fontSize:".75rem",fontWeight:900}],i
+
+=== /main/inicio #3 @ 310503 ===
+=>s.isOpen).sort((s,o)=>o.sort-s.sort);return ds.set("activityConfig",a),a}else return[]}const GL=["/main/inicio","/subscribeReward"],Jw=(t,a)=>{const s=Ae(),o=pt(),i=jt(),d=Me.currentRoute;setTimeout(async()=>{await s.setToken(t),await jt().clearActivityList(),jt().requestActivityList(!0),await i.getUserHomeTop(t);const u={[$a.MOBILE_SAFARI]:()=>{Me.replace("/launch").then(()=>{location.reload()})},Facebook:()=>{q8(t,a)},default:()=>{!GL.include
+
+=== zie #1 @ 569003 ===
+ale(0.82)"},{offset:1,opacity:"1",transform:"scale(1)"}]);return mr().addElement($).easing("cubic-bezier(0.22, 1, 0.36, 1)").duration(Oy.enterDurationMs).addAnimation([S,C])}function I($){return T($).direction("reverse").duration(Oy.leaveDurationMs)}return fa(()=>{y()}),($,k)=>{const S=Gt("i18n-t");return c(),A(e(At),{id:"modal-prize","is-open":e(o).state.prize,"backdrop-dismiss":!1,"enter-animation":T,"leave-animation":I,onDidPresent:h,onWillDis
+
+=== zie #2 @ 1099945 ===
+F(()=>Promise.resolve().then(()=>Pqt),void 0),jie=()=>F(()=>Promise.resolve().then(()=>Bqt),void 0),zie=[{path:"/",redirect:"/launch"},{path:"/launch",component:Mie},{path:"/restricted",component:Uie},{path:"/:pathMatch(.*)*",redirect:"/launch"},{path:"/transition",component:Cd},{path:"/test/safehtml",component:()=>F(()=>Promise.resolve().then(()=>iJt),void 0)},{path:"/test/trpc-cache",component:()=>F(()=>Promise.resolve().then(()=>qJt),void 0)},
+
+=== zie #3 @ 1989022 ===
+l?void 0:Hp[Aze])||{routes:[],styles:[]},Pze=()=>(sr(ki.common),sr(xze),{history:v3("/"),routes:[...zie,...ote,...Cze]}),Me=_3(Pze());Me.beforeEach(async(t,a,s)=>{if(!navigator.onLine)return s(!1);const o=Ae(),i=ba(),d=await o.getToken();if(t.meta.auth&&!d){if(a.path==="/")return s({path:"/launch",query:t.query});if(a.path==="/launch")return i.setRedirectRoute("login"),s({path:"/main",query:t.query})}else if(!t.meta.auth||d){const u=Object.keys(a
+
+=== Cze #1 @ 1988898 ===
+styles:ki.first},second:{routes:GI,styles:ki.second},default:{routes:lk,styles:ki.default}},{routes:Cze,styles:xze}=(Hp==null?void 0:Hp[Aze])||{routes:[],styles:[]},Pze=()=>(sr(ki.common),sr(xze),{history:v3("/"),routes:[...zie,...ote,...Cze]}),Me=_3(Pze());Me.beforeEach(async(t,a,s)=>{if(!navigator.onLine)return s(!1);const o=Ae(),i=ba(),d=await o.getToken();if(t.meta.auth&&!d){if(a.path==="/")return s({path:"/launch",query:t.query});if(a.path==
+
+=== Cze #2 @ 1989036 ===
+e])||{routes:[],styles:[]},Pze=()=>(sr(ki.common),sr(xze),{history:v3("/"),routes:[...zie,...ote,...Cze]}),Me=_3(Pze());Me.beforeEach(async(t,a,s)=>{if(!navigator.onLine)return s(!1);const o=Ae(),i=ba(),d=await o.getToken();if(t.meta.auth&&!d){if(a.path==="/")return s({path:"/launch",query:t.query});if(a.path==="/launch")return i.setRedirectRoute("login"),s({path:"/main",query:t.query})}else if(!t.meta.auth||d){const u=Object.keys(a.query),m=Obje
+
+=== beforeEach(async #1 @ 1989059 ===
+[]},Pze=()=>(sr(ki.common),sr(xze),{history:v3("/"),routes:[...zie,...ote,...Cze]}),Me=_3(Pze());Me.beforeEach(async(t,a,s)=>{if(!navigator.onLine)return s(!1);const o=Ae(),i=ba(),d=await o.getToken();if(t.meta.auth&&!d){if(a.path==="/")return s({path:"/launch",query:t.query});if(a.path==="/launch")return i.setRedirectRoute("login"),s({path:"/main",query:t.query})}else if(!t.meta.auth||d){const u=Object.keys(a.query),m=Object.keys(t.query),g=u.ev
+

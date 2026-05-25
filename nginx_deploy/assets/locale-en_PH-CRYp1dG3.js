@@ -1,0 +1,1 @@
+const a={phonePlaceholder:"9***** Fill in your phone number",GCASH:"Input  your payment Gcash",MAYA_WALLET:"Input your payment Maya"},t={"activity:firstRechargeRebate":"Unang deposito pagkawala rebate","activity:firstWithdrawRebate":"Unang withdrawal rebate"},e={label:a,option:t};export{e as default,a as label,t as option};
